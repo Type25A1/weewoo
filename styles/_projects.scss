@@ -1,0 +1,52 @@
+.project-text {
+  h1 {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 14%;
+    left: 50%;
+    font-size: 40px;
+    font-family: "Rubik", sans-serif;
+    transform: translateX(-50%);
+  }
+}
+.downloads-wrap {
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  width: 50%;
+  height: 100%;
+  transform: translateX(-50%);
+  background-color: #77d8d8;
+
+  h2 {
+    position: relative;
+    left: 5%;
+    color: rgba(0, 0, 0, 0.712);
+    font-family: "Rubik", sans-serif;
+  }
+  h4 {
+    position: relative;
+    left: 5%;
+
+    color: rgba(0, 0, 0, 0.733);
+    font-family: "Rubik", sans-serif;
+  }
+}
+.downloads-wrap1 {
+  position: absolute;
+  left: 50%;
+  top: 14%;
+  width: 50%;
+
+  border: 2px dotted black;
+  transform: translateX(-50%);
+}
+.anime-img {
+  img {
+    position: fixed;
+    right: 0;
+    bottom: 0%;
+    height: 500px;
+    z-index: 20;
+  }
+}
